@@ -175,19 +175,19 @@
     padding: 15px 0 0;
     margin-top: -10px;
 }
-.zhy-info-day{
+.dzb-info-day{
     padding: 7px 10px;
 }
-.zhy-info-day p{
+.dzb-info-day p{
     text-align: center;
     font-size: 14px;
     line-height: 19px;
 }
-.zhy-info-opinion{
+.dzb-info-opinion{
     margin-top: 25px;
     text-align: center;
 }
-.zhy-info-opinion p{
+.dzb-info-opinion p{
     font-size: 16px;
     font-family: 仿宋;
 }
@@ -263,19 +263,19 @@ a.linkColor{
 .halving-line i{
     margin: auto 10px;
 }
-.zhy-qq-weixin p{
+.dzb-qq-weixin p{
     color: lightyellow;
     font-size: large;
     font-family: 仿宋
 }
-.zhy-qq-box img{
+.dzb-qq-box img{
     width:130px;
     border: 10px;
 }
-.zhy-weixin-box{
+.dzb-weixin-box{
     margin-top: 20px;
 }
-.zhy-weixin-box img{
+.dzb-weixin-box img{
     width:130px;
     border: 10px;
 }

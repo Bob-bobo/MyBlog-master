@@ -1,5 +1,5 @@
-2022-01-21 14:06:12,698 [main] INFO  [com.zhy.MyBlogApplication] - Starting MyBlogApplication using Java 11.0.10 on DESKTOP-QMO4NER with PID 2296 (D:\JavaWork\Github-Repositry\MyBlog-master\target\classes started by 12978 in D:\JavaWork\Github-Repositry\MyBlog-master)
-2022-01-21 14:06:12,715 [main] INFO  [com.zhy.MyBlogApplication] - The following profiles are active: dev
+2022-01-21 14:06:12,698 [main] INFO  [com.dzb.MyBlogApplication] - Starting MyBlogApplication using Java 11.0.10 on DESKTOP-QMO4NER with PID 2296 (D:\JavaWork\Github-Repositry\MyBlog-master\target\classes started by 12978 in D:\JavaWork\Github-Repositry\MyBlog-master)
+2022-01-21 14:06:12,715 [main] INFO  [com.dzb.MyBlogApplication] - The following profiles are active: dev
 2022-01-21 14:06:14,774 [main] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
 2022-01-21 14:06:14,778 [main] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
 2022-01-21 14:06:14,816 [main] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
@@ -15,27 +15,27 @@
 2022-01-21 14:06:16,439 [main] INFO  [org.apache.catalina.core.AprLifecycleListener] - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
 2022-01-21 14:06:16,585 [main] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
 2022-01-21 14:06:16,585 [main] INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 3779 ms
-2022-01-21 14:06:16,598 [main] INFO  [com.zhy.config.DruidDataSourceConfig] - init Druid Servlet Configuration 
+2022-01-21 14:06:16,598 [main] INFO  [com.dzb.config.DruidDataSourceConfig] - init Druid Servlet Configuration
 2022-01-21 14:06:18,663 [main] INFO  [org.springframework.security.web.DefaultSecurityFilterChain] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7614378d, org.springframework.security.web.context.SecurityContextPersistenceFilter@104bc677, org.springframework.security.web.header.HeaderWriterFilter@32428874, org.springframework.security.web.authentication.logout.LogoutFilter@72168258, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@37c37d67, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@625f5712, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28cf179c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7028b5cc, org.springframework.security.web.session.SessionManagementFilter@3412a3fd, org.springframework.security.web.access.ExceptionTranslationFilter@5a06eeef, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@669580e2]
 2022-01-21 14:06:18,844 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-80"]
 2022-01-21 14:06:18,880 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 80 (http) with context path ''
-2022-01-21 14:06:18,898 [main] INFO  [com.zhy.MyBlogApplication] - Started MyBlogApplication in 6.706 seconds (JVM running for 9.459)
+2022-01-21 14:06:18,898 [main] INFO  [com.dzb.MyBlogApplication] - Started MyBlogApplication in 6.706 seconds (JVM running for 9.459)
 2022-01-21 14:07:00,168 [http-nio-80-exec-1] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2022-01-21 14:07:00,169 [http-nio-80-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
 2022-01-21 14:07:00,171 [http-nio-80-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 2 ms
 2022-01-21 14:07:00,721 [http-nio-80-exec-1] WARN  [org.apache.catalina.util.SessionIdGeneratorBase] - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [504] milliseconds.
 2022-01-21 14:07:02,039 [http-nio-80-exec-1] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
-2022-01-21 14:07:31,217 [http-nio-80-exec-1] INFO  [com.zhy.controller.UserControl] - ------这里是获取当前登录用户名的地方《《《@》》》
+2022-01-21 14:07:31,217 [http-nio-80-exec-1] INFO  [com.dzb.controller.UserControl] - ------这里是获取当前登录用户名的地方《《《@》》》
 2022-01-21 14:07:31,225 [http-nio-80-exec-1] ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 java.lang.NullPointerException: null
-	at com.zhy.controller.UserControl.getUserNews(UserControl.java:238) ~[classes/:?]
-	at com.zhy.controller.UserControl$$FastClassBySpringCGLIB$$113b0e70.invoke(<generated>) ~[classes/:?]
+	at com.dzb.controller.UserControl.getUserNews(UserControl.java:238) ~[classes/:?]
+	at com.dzb.controller.UserControl$$FastClassBySpringCGLIB$$113b0e70.invoke(<generated>) ~[classes/:?]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-5.3.12.jar:5.3.12]
-	at com.zhy.aspect.PrincipalAspect.principalAround(PrincipalAspect.java:57) ~[classes/:?]
+	at com.dzb.aspect.PrincipalAspect.principalAround(PrincipalAspect.java:57) ~[classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -49,7 +49,7 @@ java.lang.NullPointerException: null
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) ~[spring-aop-5.3.12.jar:5.3.12]
-	at com.zhy.controller.UserControl$$EnhancerBySpringCGLIB$$e99fe7e7.getUserNews(<generated>) ~[classes/:?]
+	at com.dzb.controller.UserControl$$EnhancerBySpringCGLIB$$e99fe7e7.getUserNews(<generated>) ~[classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -133,8 +133,8 @@ java.lang.NullPointerException: null
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.54.jar:9.0.54]
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.54.jar:9.0.54]
 	at java.lang.Thread.run(Thread.java:834) [?:?]
-2022-01-21 14:26:42,636 [main] INFO  [com.zhy.MyBlogApplication] - Starting MyBlogApplication using Java 11.0.10 on DESKTOP-QMO4NER with PID 12452 (D:\JavaWork\Github-Repositry\MyBlog-master\target\classes started by 12978 in D:\JavaWork\Github-Repositry\MyBlog-master)
-2022-01-21 14:26:42,642 [main] INFO  [com.zhy.MyBlogApplication] - The following profiles are active: dev
+2022-01-21 14:26:42,636 [main] INFO  [com.dzb.MyBlogApplication] - Starting MyBlogApplication using Java 11.0.10 on DESKTOP-QMO4NER with PID 12452 (D:\JavaWork\Github-Repositry\MyBlog-master\target\classes started by 12978 in D:\JavaWork\Github-Repositry\MyBlog-master)
+2022-01-21 14:26:42,642 [main] INFO  [com.dzb.MyBlogApplication] - The following profiles are active: dev
 2022-01-21 14:26:43,263 [main] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
 2022-01-21 14:26:43,264 [main] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
 2022-01-21 14:26:43,289 [main] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
@@ -150,27 +150,27 @@ java.lang.NullPointerException: null
 2022-01-21 14:26:43,932 [main] INFO  [org.apache.catalina.core.AprLifecycleListener] - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
 2022-01-21 14:26:44,007 [main] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
 2022-01-21 14:26:44,007 [main] INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1319 ms
-2022-01-21 14:26:44,019 [main] INFO  [com.zhy.config.DruidDataSourceConfig] - init Druid Servlet Configuration 
+2022-01-21 14:26:44,019 [main] INFO  [com.dzb.config.DruidDataSourceConfig] - init Druid Servlet Configuration
 2022-01-21 14:26:45,494 [main] INFO  [org.springframework.security.web.DefaultSecurityFilterChain] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@d677be9, org.springframework.security.web.context.SecurityContextPersistenceFilter@31dbf5bb, org.springframework.security.web.header.HeaderWriterFilter@3fd9e01c, org.springframework.security.web.authentication.logout.LogoutFilter@3c65f00e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@20fa5277, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1c787389, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7977f046, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@fefb66c, org.springframework.security.web.session.SessionManagementFilter@38ba8b45, org.springframework.security.web.access.ExceptionTranslationFilter@47c5cbf2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@53e166ad]
 2022-01-21 14:26:45,599 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-80"]
 2022-01-21 14:26:45,616 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 80 (http) with context path ''
-2022-01-21 14:26:45,631 [main] INFO  [com.zhy.MyBlogApplication] - Started MyBlogApplication in 3.302 seconds (JVM running for 5.438)
+2022-01-21 14:26:45,631 [main] INFO  [com.dzb.MyBlogApplication] - Started MyBlogApplication in 3.302 seconds (JVM running for 5.438)
 2022-01-21 14:26:53,466 [http-nio-80-exec-1] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2022-01-21 14:26:53,467 [http-nio-80-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
 2022-01-21 14:26:53,468 [http-nio-80-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
 2022-01-21 14:26:54,018 [http-nio-80-exec-1] WARN  [org.apache.catalina.util.SessionIdGeneratorBase] - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [514] milliseconds.
 2022-01-21 14:26:54,580 [http-nio-80-exec-7] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
-2022-01-21 14:26:59,311 [http-nio-80-exec-2] INFO  [com.zhy.controller.UserControl] - ------这里是获取当前登录用户名的地方《《《@》》》
+2022-01-21 14:26:59,311 [http-nio-80-exec-2] INFO  [com.dzb.controller.UserControl] - ------这里是获取当前登录用户名的地方《《《@》》》
 2022-01-21 14:26:59,321 [http-nio-80-exec-2] ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 java.lang.NullPointerException: null
-	at com.zhy.controller.UserControl.getUserNews(UserControl.java:238) ~[classes/:?]
-	at com.zhy.controller.UserControl$$FastClassBySpringCGLIB$$113b0e70.invoke(<generated>) ~[classes/:?]
+	at com.dzb.controller.UserControl.getUserNews(UserControl.java:238) ~[classes/:?]
+	at com.dzb.controller.UserControl$$FastClassBySpringCGLIB$$113b0e70.invoke(<generated>) ~[classes/:?]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-5.3.12.jar:5.3.12]
-	at com.zhy.aspect.PrincipalAspect.principalAround(PrincipalAspect.java:58) ~[classes/:?]
+	at com.dzb.aspect.PrincipalAspect.principalAround(PrincipalAspect.java:58) ~[classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -184,7 +184,7 @@ java.lang.NullPointerException: null
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) ~[spring-aop-5.3.12.jar:5.3.12]
-	at com.zhy.controller.UserControl$$EnhancerBySpringCGLIB$$113e19aa.getUserNews(<generated>) ~[classes/:?]
+	at com.dzb.controller.UserControl$$EnhancerBySpringCGLIB$$113e19aa.getUserNews(<generated>) ~[classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -268,8 +268,8 @@ java.lang.NullPointerException: null
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.54.jar:9.0.54]
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.54.jar:9.0.54]
 	at java.lang.Thread.run(Thread.java:834) [?:?]
-2022-01-21 14:30:12,309 [main] INFO  [com.zhy.MyBlogApplication] - Starting MyBlogApplication using Java 11.0.10 on DESKTOP-QMO4NER with PID 14588 (D:\JavaWork\Github-Repositry\MyBlog-master\target\classes started by 12978 in D:\JavaWork\Github-Repositry\MyBlog-master)
-2022-01-21 14:30:12,316 [main] INFO  [com.zhy.MyBlogApplication] - The following profiles are active: dev
+2022-01-21 14:30:12,309 [main] INFO  [com.dzb.MyBlogApplication] - Starting MyBlogApplication using Java 11.0.10 on DESKTOP-QMO4NER with PID 14588 (D:\JavaWork\Github-Repositry\MyBlog-master\target\classes started by 12978 in D:\JavaWork\Github-Repositry\MyBlog-master)
+2022-01-21 14:30:12,316 [main] INFO  [com.dzb.MyBlogApplication] - The following profiles are active: dev
 2022-01-21 14:30:13,028 [main] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
 2022-01-21 14:30:13,031 [main] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
 2022-01-21 14:30:13,057 [main] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
@@ -285,27 +285,27 @@ java.lang.NullPointerException: null
 2022-01-21 14:30:13,732 [main] INFO  [org.apache.catalina.core.AprLifecycleListener] - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
 2022-01-21 14:30:13,812 [main] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
 2022-01-21 14:30:13,813 [main] INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1456 ms
-2022-01-21 14:30:13,825 [main] INFO  [com.zhy.config.DruidDataSourceConfig] - init Druid Servlet Configuration 
+2022-01-21 14:30:13,825 [main] INFO  [com.dzb.config.DruidDataSourceConfig] - init Druid Servlet Configuration
 2022-01-21 14:30:15,577 [main] INFO  [org.springframework.security.web.DefaultSecurityFilterChain] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29ea5e0, org.springframework.security.web.context.SecurityContextPersistenceFilter@23933031, org.springframework.security.web.header.HeaderWriterFilter@41f23499, org.springframework.security.web.authentication.logout.LogoutFilter@104bc677, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7ef9c8a5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@19c1f6f4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1534bdc6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1c459c28, org.springframework.security.web.session.SessionManagementFilter@1f19d423, org.springframework.security.web.access.ExceptionTranslationFilter@4888d1ea, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@17a7d6c8]
 2022-01-21 14:30:15,680 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-80"]
 2022-01-21 14:30:15,698 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 80 (http) with context path ''
-2022-01-21 14:30:15,711 [main] INFO  [com.zhy.MyBlogApplication] - Started MyBlogApplication in 3.834 seconds (JVM running for 5.641)
+2022-01-21 14:30:15,711 [main] INFO  [com.dzb.MyBlogApplication] - Started MyBlogApplication in 3.834 seconds (JVM running for 5.641)
 2022-01-21 14:30:20,455 [http-nio-80-exec-1] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2022-01-21 14:30:20,456 [http-nio-80-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
 2022-01-21 14:30:20,457 [http-nio-80-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
 2022-01-21 14:30:21,020 [http-nio-80-exec-1] WARN  [org.apache.catalina.util.SessionIdGeneratorBase] - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [525] milliseconds.
 2022-01-21 14:30:21,546 [http-nio-80-exec-7] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
-2022-01-21 14:30:26,175 [http-nio-80-exec-5] INFO  [com.zhy.controller.UserControl] - ------这里是获取当前登录用户名的地方《《《@》》》
+2022-01-21 14:30:26,175 [http-nio-80-exec-5] INFO  [com.dzb.controller.UserControl] - ------这里是获取当前登录用户名的地方《《《@》》》
 2022-01-21 14:30:26,184 [http-nio-80-exec-5] ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 java.lang.NullPointerException: null
-	at com.zhy.controller.UserControl.getUserNews(UserControl.java:238) ~[classes/:?]
-	at com.zhy.controller.UserControl$$FastClassBySpringCGLIB$$113b0e70.invoke(<generated>) ~[classes/:?]
+	at com.dzb.controller.UserControl.getUserNews(UserControl.java:238) ~[classes/:?]
+	at com.dzb.controller.UserControl$$FastClassBySpringCGLIB$$113b0e70.invoke(<generated>) ~[classes/:?]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-5.3.12.jar:5.3.12]
-	at com.zhy.aspect.PrincipalAspect.principalAround(PrincipalAspect.java:62) ~[classes/:?]
+	at com.dzb.aspect.PrincipalAspect.principalAround(PrincipalAspect.java:62) ~[classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -319,7 +319,7 @@ java.lang.NullPointerException: null
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) ~[spring-aop-5.3.12.jar:5.3.12]
-	at com.zhy.controller.UserControl$$EnhancerBySpringCGLIB$$abe649ad.getUserNews(<generated>) ~[classes/:?]
+	at com.dzb.controller.UserControl$$EnhancerBySpringCGLIB$$abe649ad.getUserNews(<generated>) ~[classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -403,8 +403,8 @@ java.lang.NullPointerException: null
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.54.jar:9.0.54]
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.54.jar:9.0.54]
 	at java.lang.Thread.run(Thread.java:834) [?:?]
-2022-01-21 14:36:31,798 [main] INFO  [com.zhy.MyBlogApplication] - Starting MyBlogApplication using Java 11.0.10 on DESKTOP-QMO4NER with PID 15556 (D:\JavaWork\Github-Repositry\MyBlog-master\target\classes started by 12978 in D:\JavaWork\Github-Repositry\MyBlog-master)
-2022-01-21 14:36:31,807 [main] INFO  [com.zhy.MyBlogApplication] - The following profiles are active: dev
+2022-01-21 14:36:31,798 [main] INFO  [com.dzb.MyBlogApplication] - Starting MyBlogApplication using Java 11.0.10 on DESKTOP-QMO4NER with PID 15556 (D:\JavaWork\Github-Repositry\MyBlog-master\target\classes started by 12978 in D:\JavaWork\Github-Repositry\MyBlog-master)
+2022-01-21 14:36:31,807 [main] INFO  [com.dzb.MyBlogApplication] - The following profiles are active: dev
 2022-01-21 14:36:33,756 [main] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
 2022-01-21 14:36:33,760 [main] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
 2022-01-21 14:36:33,817 [main] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
@@ -420,17 +420,17 @@ java.lang.NullPointerException: null
 2022-01-21 14:36:34,905 [main] INFO  [org.apache.catalina.core.AprLifecycleListener] - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
 2022-01-21 14:36:35,018 [main] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
 2022-01-21 14:36:35,018 [main] INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 3143 ms
-2022-01-21 14:36:35,031 [main] INFO  [com.zhy.config.DruidDataSourceConfig] - init Druid Servlet Configuration 
+2022-01-21 14:36:35,031 [main] INFO  [com.dzb.config.DruidDataSourceConfig] - init Druid Servlet Configuration
 2022-01-21 14:36:37,341 [main] INFO  [org.springframework.security.web.DefaultSecurityFilterChain] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@30c03473, org.springframework.security.web.context.SecurityContextPersistenceFilter@217b0952, org.springframework.security.web.header.HeaderWriterFilter@47c5cbf2, org.springframework.security.web.authentication.logout.LogoutFilter@1c0cf193, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@79135a38, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@43090195, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@415262a0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20fa5277, org.springframework.security.web.session.SessionManagementFilter@519b0f00, org.springframework.security.web.access.ExceptionTranslationFilter@37142579, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5b1f5fcc]
 2022-01-21 14:36:37,466 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-80"]
 2022-01-21 14:36:37,494 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 80 (http) with context path ''
-2022-01-21 14:36:37,508 [main] INFO  [com.zhy.MyBlogApplication] - Started MyBlogApplication in 6.112 seconds (JVM running for 8.448)
+2022-01-21 14:36:37,508 [main] INFO  [com.dzb.MyBlogApplication] - Started MyBlogApplication in 6.112 seconds (JVM running for 8.448)
 2022-01-21 14:36:47,453 [http-nio-80-exec-1] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2022-01-21 14:36:47,454 [http-nio-80-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
 2022-01-21 14:36:47,455 [http-nio-80-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
 2022-01-21 14:36:48,010 [http-nio-80-exec-1] WARN  [org.apache.catalina.util.SessionIdGeneratorBase] - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [518] milliseconds.
 2022-01-21 14:36:50,080 [http-nio-80-exec-1] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
-2022-01-21 14:36:51,998 [http-nio-80-exec-7] ERROR [com.zhy.controller.IndexControl] - pageName [visitorVolume] get visitor num exception
+2022-01-21 14:36:51,998 [http-nio-80-exec-7] ERROR [com.dzb.controller.IndexControl] - pageName [visitorVolume] get visitor num exception
 org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1671) ~[spring-data-redis-2.5.6.jar:2.5.6]
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1579) ~[spring-data-redis-2.5.6.jar:2.5.6]
@@ -445,12 +445,12 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:189) ~[spring-data-redis-2.5.6.jar:2.5.6]
 	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:96) ~[spring-data-redis-2.5.6.jar:2.5.6]
 	at org.springframework.data.redis.core.DefaultHashOperations.hasKey(DefaultHashOperations.java:67) ~[spring-data-redis-2.5.6.jar:2.5.6]
-	at com.zhy.redis.HashRedisServiceImpl.hasHashKey(HashRedisServiceImpl.java:113) ~[classes/:?]
-	at com.zhy.service.RedisService.addVisitorNumOnRedis(RedisService.java:100) ~[classes/:?]
-	at com.zhy.service.impl.VisitorServiceImpl.updatePageVisitor(VisitorServiceImpl.java:64) ~[classes/:?]
-	at com.zhy.service.impl.VisitorServiceImpl.addVisitorNumByPageName(VisitorServiceImpl.java:44) ~[classes/:?]
-	at com.zhy.controller.IndexControl.getVisitorNumByPageName(IndexControl.java:61) [classes/:?]
-	at com.zhy.controller.IndexControl$$FastClassBySpringCGLIB$$c105c88d.invoke(<generated>) [classes/:?]
+	at com.dzb.redis.HashRedisServiceImpl.hasHashKey(HashRedisServiceImpl.java:113) ~[classes/:?]
+	at com.dzb.service.RedisService.addVisitorNumOnRedis(RedisService.java:100) ~[classes/:?]
+	at com.dzb.service.impl.VisitorServiceImpl.updatePageVisitor(VisitorServiceImpl.java:64) ~[classes/:?]
+	at com.dzb.service.impl.VisitorServiceImpl.addVisitorNumByPageName(VisitorServiceImpl.java:44) ~[classes/:?]
+	at com.dzb.controller.IndexControl.getVisitorNumByPageName(IndexControl.java:61) [classes/:?]
+	at com.dzb.controller.IndexControl$$FastClassBySpringCGLIB$$c105c88d.invoke(<generated>) [classes/:?]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) [spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.3.12.jar:5.3.12]
@@ -459,7 +459,7 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) [spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) [spring-aop-5.3.12.jar:5.3.12]
-	at com.zhy.controller.IndexControl$$EnhancerBySpringCGLIB$$e06cdb75.getVisitorNumByPageName(<generated>) [classes/:?]
+	at com.dzb.controller.IndexControl$$EnhancerBySpringCGLIB$$e06cdb75.getVisitorNumByPageName(<generated>) [classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -584,7 +584,7 @@ Caused by: java.nio.channels.ClosedChannelException
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.69.Final.jar:4.1.69.Final]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.69.Final.jar:4.1.69.Final]
 	... 1 more
-2022-01-21 14:36:54,393 [http-nio-80-exec-5] ERROR [com.zhy.controller.IndexControl] - pageName [visitorVolume] get visitor num exception
+2022-01-21 14:36:54,393 [http-nio-80-exec-5] ERROR [com.dzb.controller.IndexControl] - pageName [visitorVolume] get visitor num exception
 org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1671) ~[spring-data-redis-2.5.6.jar:2.5.6]
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1579) ~[spring-data-redis-2.5.6.jar:2.5.6]
@@ -599,12 +599,12 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:189) ~[spring-data-redis-2.5.6.jar:2.5.6]
 	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:96) ~[spring-data-redis-2.5.6.jar:2.5.6]
 	at org.springframework.data.redis.core.DefaultHashOperations.hasKey(DefaultHashOperations.java:67) ~[spring-data-redis-2.5.6.jar:2.5.6]
-	at com.zhy.redis.HashRedisServiceImpl.hasHashKey(HashRedisServiceImpl.java:113) ~[classes/:?]
-	at com.zhy.service.RedisService.getVisitorNumOnRedis(RedisService.java:119) ~[classes/:?]
-	at com.zhy.service.impl.VisitorServiceImpl.updatePageVisitor(VisitorServiceImpl.java:77) ~[classes/:?]
-	at com.zhy.service.impl.VisitorServiceImpl.addVisitorNumByPageName(VisitorServiceImpl.java:44) ~[classes/:?]
-	at com.zhy.controller.IndexControl.getVisitorNumByPageName(IndexControl.java:61) [classes/:?]
-	at com.zhy.controller.IndexControl$$FastClassBySpringCGLIB$$c105c88d.invoke(<generated>) [classes/:?]
+	at com.dzb.redis.HashRedisServiceImpl.hasHashKey(HashRedisServiceImpl.java:113) ~[classes/:?]
+	at com.dzb.service.RedisService.getVisitorNumOnRedis(RedisService.java:119) ~[classes/:?]
+	at com.dzb.service.impl.VisitorServiceImpl.updatePageVisitor(VisitorServiceImpl.java:77) ~[classes/:?]
+	at com.dzb.service.impl.VisitorServiceImpl.addVisitorNumByPageName(VisitorServiceImpl.java:44) ~[classes/:?]
+	at com.dzb.controller.IndexControl.getVisitorNumByPageName(IndexControl.java:61) [classes/:?]
+	at com.dzb.controller.IndexControl$$FastClassBySpringCGLIB$$c105c88d.invoke(<generated>) [classes/:?]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) [spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.3.12.jar:5.3.12]
@@ -613,7 +613,7 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) [spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) [spring-aop-5.3.12.jar:5.3.12]
-	at com.zhy.controller.IndexControl$$EnhancerBySpringCGLIB$$e06cdb75.getVisitorNumByPageName(<generated>) [classes/:?]
+	at com.dzb.controller.IndexControl$$EnhancerBySpringCGLIB$$e06cdb75.getVisitorNumByPageName(<generated>) [classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -738,17 +738,17 @@ Caused by: java.nio.channels.ClosedChannelException
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.69.Final.jar:4.1.69.Final]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.69.Final.jar:4.1.69.Final]
 	... 1 more
-2022-01-21 14:36:55,860 [http-nio-80-exec-3] INFO  [com.zhy.controller.UserControl] - ------这里是获取当前登录用户名的地方《《《@》》》
+2022-01-21 14:36:55,860 [http-nio-80-exec-3] INFO  [com.dzb.controller.UserControl] - ------这里是获取当前登录用户名的地方《《《@》》》
 2022-01-21 14:36:55,871 [http-nio-80-exec-3] ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 java.lang.NullPointerException: null
-	at com.zhy.controller.UserControl.getUserNews(UserControl.java:238) ~[classes/:?]
-	at com.zhy.controller.UserControl$$FastClassBySpringCGLIB$$113b0e70.invoke(<generated>) ~[classes/:?]
+	at com.dzb.controller.UserControl.getUserNews(UserControl.java:238) ~[classes/:?]
+	at com.dzb.controller.UserControl$$FastClassBySpringCGLIB$$113b0e70.invoke(<generated>) ~[classes/:?]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-5.3.12.jar:5.3.12]
-	at com.zhy.aspect.PrincipalAspect.principalAround(PrincipalAspect.java:61) ~[classes/:?]
+	at com.dzb.aspect.PrincipalAspect.principalAround(PrincipalAspect.java:61) ~[classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -762,7 +762,7 @@ java.lang.NullPointerException: null
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) ~[spring-aop-5.3.12.jar:5.3.12]
-	at com.zhy.controller.UserControl$$EnhancerBySpringCGLIB$$68e9f2fe.getUserNews(<generated>) ~[classes/:?]
+	at com.dzb.controller.UserControl$$EnhancerBySpringCGLIB$$68e9f2fe.getUserNews(<generated>) ~[classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -846,7 +846,7 @@ java.lang.NullPointerException: null
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.54.jar:9.0.54]
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.54.jar:9.0.54]
 	at java.lang.Thread.run(Thread.java:834) [?:?]
-2022-01-21 14:36:56,384 [http-nio-80-exec-4] ERROR [com.zhy.controller.IndexControl] - pageName [visitorVolume] get visitor num exception
+2022-01-21 14:36:56,384 [http-nio-80-exec-4] ERROR [com.dzb.controller.IndexControl] - pageName [visitorVolume] get visitor num exception
 org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1671) ~[spring-data-redis-2.5.6.jar:2.5.6]
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1579) ~[spring-data-redis-2.5.6.jar:2.5.6]
@@ -861,12 +861,12 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:189) ~[spring-data-redis-2.5.6.jar:2.5.6]
 	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:96) ~[spring-data-redis-2.5.6.jar:2.5.6]
 	at org.springframework.data.redis.core.DefaultHashOperations.hasKey(DefaultHashOperations.java:67) ~[spring-data-redis-2.5.6.jar:2.5.6]
-	at com.zhy.redis.HashRedisServiceImpl.hasHashKey(HashRedisServiceImpl.java:113) ~[classes/:?]
-	at com.zhy.service.RedisService.getVisitorNumOnRedis(RedisService.java:119) ~[classes/:?]
-	at com.zhy.service.impl.VisitorServiceImpl.updatePageVisitor(VisitorServiceImpl.java:77) ~[classes/:?]
-	at com.zhy.service.impl.VisitorServiceImpl.addVisitorNumByPageName(VisitorServiceImpl.java:44) ~[classes/:?]
-	at com.zhy.controller.IndexControl.getVisitorNumByPageName(IndexControl.java:61) [classes/:?]
-	at com.zhy.controller.IndexControl$$FastClassBySpringCGLIB$$c105c88d.invoke(<generated>) [classes/:?]
+	at com.dzb.redis.HashRedisServiceImpl.hasHashKey(HashRedisServiceImpl.java:113) ~[classes/:?]
+	at com.dzb.service.RedisService.getVisitorNumOnRedis(RedisService.java:119) ~[classes/:?]
+	at com.dzb.service.impl.VisitorServiceImpl.updatePageVisitor(VisitorServiceImpl.java:77) ~[classes/:?]
+	at com.dzb.service.impl.VisitorServiceImpl.addVisitorNumByPageName(VisitorServiceImpl.java:44) ~[classes/:?]
+	at com.dzb.controller.IndexControl.getVisitorNumByPageName(IndexControl.java:61) [classes/:?]
+	at com.dzb.controller.IndexControl$$FastClassBySpringCGLIB$$c105c88d.invoke(<generated>) [classes/:?]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) [spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.3.12.jar:5.3.12]
@@ -875,7 +875,7 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) [spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) [spring-aop-5.3.12.jar:5.3.12]
-	at com.zhy.controller.IndexControl$$EnhancerBySpringCGLIB$$e06cdb75.getVisitorNumByPageName(<generated>) [classes/:?]
+	at com.dzb.controller.IndexControl$$EnhancerBySpringCGLIB$$e06cdb75.getVisitorNumByPageName(<generated>) [classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -1000,17 +1000,17 @@ Caused by: java.nio.channels.ClosedChannelException
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.69.Final.jar:4.1.69.Final]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.69.Final.jar:4.1.69.Final]
 	... 1 more
-2022-01-21 14:38:18,345 [http-nio-80-exec-4] INFO  [com.zhy.controller.UserControl] - ------这里是获取当前登录用户名的地方《《《@》》》
+2022-01-21 14:38:18,345 [http-nio-80-exec-4] INFO  [com.dzb.controller.UserControl] - ------这里是获取当前登录用户名的地方《《《@》》》
 2022-01-21 14:38:18,346 [http-nio-80-exec-4] ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 java.lang.NullPointerException: null
-	at com.zhy.controller.UserControl.getUserNews(UserControl.java:238) ~[classes/:?]
-	at com.zhy.controller.UserControl$$FastClassBySpringCGLIB$$113b0e70.invoke(<generated>) ~[classes/:?]
+	at com.dzb.controller.UserControl.getUserNews(UserControl.java:238) ~[classes/:?]
+	at com.dzb.controller.UserControl$$FastClassBySpringCGLIB$$113b0e70.invoke(<generated>) ~[classes/:?]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-5.3.12.jar:5.3.12]
-	at com.zhy.aspect.PrincipalAspect.principalAround(PrincipalAspect.java:61) ~[classes/:?]
+	at com.dzb.aspect.PrincipalAspect.principalAround(PrincipalAspect.java:61) ~[classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -1024,7 +1024,7 @@ java.lang.NullPointerException: null
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) ~[spring-aop-5.3.12.jar:5.3.12]
-	at com.zhy.controller.UserControl$$EnhancerBySpringCGLIB$$68e9f2fe.getUserNews(<generated>) ~[classes/:?]
+	at com.dzb.controller.UserControl$$EnhancerBySpringCGLIB$$68e9f2fe.getUserNews(<generated>) ~[classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -1108,7 +1108,7 @@ java.lang.NullPointerException: null
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.54.jar:9.0.54]
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.54.jar:9.0.54]
 	at java.lang.Thread.run(Thread.java:834) [?:?]
-2022-01-21 14:38:18,984 [http-nio-80-exec-7] ERROR [com.zhy.controller.IndexControl] - pageName [visitorVolume] get visitor num exception
+2022-01-21 14:38:18,984 [http-nio-80-exec-7] ERROR [com.dzb.controller.IndexControl] - pageName [visitorVolume] get visitor num exception
 org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1671) ~[spring-data-redis-2.5.6.jar:2.5.6]
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1579) ~[spring-data-redis-2.5.6.jar:2.5.6]
@@ -1123,12 +1123,12 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:189) ~[spring-data-redis-2.5.6.jar:2.5.6]
 	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:96) ~[spring-data-redis-2.5.6.jar:2.5.6]
 	at org.springframework.data.redis.core.DefaultHashOperations.hasKey(DefaultHashOperations.java:67) ~[spring-data-redis-2.5.6.jar:2.5.6]
-	at com.zhy.redis.HashRedisServiceImpl.hasHashKey(HashRedisServiceImpl.java:113) ~[classes/:?]
-	at com.zhy.service.RedisService.getVisitorNumOnRedis(RedisService.java:119) ~[classes/:?]
-	at com.zhy.service.impl.VisitorServiceImpl.updatePageVisitor(VisitorServiceImpl.java:77) ~[classes/:?]
-	at com.zhy.service.impl.VisitorServiceImpl.addVisitorNumByPageName(VisitorServiceImpl.java:44) ~[classes/:?]
-	at com.zhy.controller.IndexControl.getVisitorNumByPageName(IndexControl.java:61) [classes/:?]
-	at com.zhy.controller.IndexControl$$FastClassBySpringCGLIB$$c105c88d.invoke(<generated>) [classes/:?]
+	at com.dzb.redis.HashRedisServiceImpl.hasHashKey(HashRedisServiceImpl.java:113) ~[classes/:?]
+	at com.dzb.service.RedisService.getVisitorNumOnRedis(RedisService.java:119) ~[classes/:?]
+	at com.dzb.service.impl.VisitorServiceImpl.updatePageVisitor(VisitorServiceImpl.java:77) ~[classes/:?]
+	at com.dzb.service.impl.VisitorServiceImpl.addVisitorNumByPageName(VisitorServiceImpl.java:44) ~[classes/:?]
+	at com.dzb.controller.IndexControl.getVisitorNumByPageName(IndexControl.java:61) [classes/:?]
+	at com.dzb.controller.IndexControl$$FastClassBySpringCGLIB$$c105c88d.invoke(<generated>) [classes/:?]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) [spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.3.12.jar:5.3.12]
@@ -1137,7 +1137,7 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) [spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) [spring-aop-5.3.12.jar:5.3.12]
-	at com.zhy.controller.IndexControl$$EnhancerBySpringCGLIB$$e06cdb75.getVisitorNumByPageName(<generated>) [classes/:?]
+	at com.dzb.controller.IndexControl$$EnhancerBySpringCGLIB$$e06cdb75.getVisitorNumByPageName(<generated>) [classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -1262,8 +1262,8 @@ Caused by: java.nio.channels.ClosedChannelException
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.69.Final.jar:4.1.69.Final]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.69.Final.jar:4.1.69.Final]
 	... 1 more
-2022-01-21 14:40:04,010 [main] INFO  [com.zhy.MyBlogApplication] - Starting MyBlogApplication using Java 11.0.10 on DESKTOP-QMO4NER with PID 17676 (D:\JavaWork\Github-Repositry\MyBlog-master\target\classes started by 12978 in D:\JavaWork\Github-Repositry\MyBlog-master)
-2022-01-21 14:40:04,016 [main] INFO  [com.zhy.MyBlogApplication] - The following profiles are active: dev
+2022-01-21 14:40:04,010 [main] INFO  [com.dzb.MyBlogApplication] - Starting MyBlogApplication using Java 11.0.10 on DESKTOP-QMO4NER with PID 17676 (D:\JavaWork\Github-Repositry\MyBlog-master\target\classes started by 12978 in D:\JavaWork\Github-Repositry\MyBlog-master)
+2022-01-21 14:40:04,016 [main] INFO  [com.dzb.MyBlogApplication] - The following profiles are active: dev
 2022-01-21 14:40:04,624 [main] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
 2022-01-21 14:40:04,626 [main] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
 2022-01-21 14:40:04,648 [main] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
@@ -1279,17 +1279,17 @@ Caused by: java.nio.channels.ClosedChannelException
 2022-01-21 14:40:05,422 [main] INFO  [org.apache.catalina.core.AprLifecycleListener] - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
 2022-01-21 14:40:05,520 [main] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
 2022-01-21 14:40:05,521 [main] INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1471 ms
-2022-01-21 14:40:05,538 [main] INFO  [com.zhy.config.DruidDataSourceConfig] - init Druid Servlet Configuration 
+2022-01-21 14:40:05,538 [main] INFO  [com.dzb.config.DruidDataSourceConfig] - init Druid Servlet Configuration
 2022-01-21 14:40:06,992 [main] INFO  [org.springframework.security.web.DefaultSecurityFilterChain] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@756200d1, org.springframework.security.web.context.SecurityContextPersistenceFilter@2e19b30, org.springframework.security.web.header.HeaderWriterFilter@2052f095, org.springframework.security.web.authentication.logout.LogoutFilter@6f17dd06, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5709e10b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47c5cbf2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@38ba8b45, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@390a07a0, org.springframework.security.web.session.SessionManagementFilter@55fe9c2f, org.springframework.security.web.access.ExceptionTranslationFilter@4d0abb23, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4af84a76]
 2022-01-21 14:40:07,176 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-80"]
 2022-01-21 14:40:07,194 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 80 (http) with context path ''
-2022-01-21 14:40:07,207 [main] INFO  [com.zhy.MyBlogApplication] - Started MyBlogApplication in 3.495 seconds (JVM running for 5.408)
+2022-01-21 14:40:07,207 [main] INFO  [com.dzb.MyBlogApplication] - Started MyBlogApplication in 3.495 seconds (JVM running for 5.408)
 2022-01-21 14:40:10,904 [http-nio-80-exec-1] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2022-01-21 14:40:10,905 [http-nio-80-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
 2022-01-21 14:40:10,906 [http-nio-80-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
 2022-01-21 14:40:11,451 [http-nio-80-exec-1] WARN  [org.apache.catalina.util.SessionIdGeneratorBase] - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [511] milliseconds.
 2022-01-21 14:40:11,971 [http-nio-80-exec-1] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
-2022-01-21 14:40:13,732 [http-nio-80-exec-5] ERROR [com.zhy.controller.IndexControl] - pageName [visitorVolume] get visitor num exception
+2022-01-21 14:40:13,732 [http-nio-80-exec-5] ERROR [com.dzb.controller.IndexControl] - pageName [visitorVolume] get visitor num exception
 org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1671) ~[spring-data-redis-2.5.6.jar:2.5.6]
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1579) ~[spring-data-redis-2.5.6.jar:2.5.6]
@@ -1304,12 +1304,12 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:189) ~[spring-data-redis-2.5.6.jar:2.5.6]
 	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:96) ~[spring-data-redis-2.5.6.jar:2.5.6]
 	at org.springframework.data.redis.core.DefaultHashOperations.hasKey(DefaultHashOperations.java:67) ~[spring-data-redis-2.5.6.jar:2.5.6]
-	at com.zhy.redis.HashRedisServiceImpl.hasHashKey(HashRedisServiceImpl.java:113) ~[classes/:?]
-	at com.zhy.service.RedisService.addVisitorNumOnRedis(RedisService.java:100) ~[classes/:?]
-	at com.zhy.service.impl.VisitorServiceImpl.updatePageVisitor(VisitorServiceImpl.java:64) ~[classes/:?]
-	at com.zhy.service.impl.VisitorServiceImpl.addVisitorNumByPageName(VisitorServiceImpl.java:44) ~[classes/:?]
-	at com.zhy.controller.IndexControl.getVisitorNumByPageName(IndexControl.java:61) [classes/:?]
-	at com.zhy.controller.IndexControl$$FastClassBySpringCGLIB$$c105c88d.invoke(<generated>) [classes/:?]
+	at com.dzb.redis.HashRedisServiceImpl.hasHashKey(HashRedisServiceImpl.java:113) ~[classes/:?]
+	at com.dzb.service.RedisService.addVisitorNumOnRedis(RedisService.java:100) ~[classes/:?]
+	at com.dzb.service.impl.VisitorServiceImpl.updatePageVisitor(VisitorServiceImpl.java:64) ~[classes/:?]
+	at com.dzb.service.impl.VisitorServiceImpl.addVisitorNumByPageName(VisitorServiceImpl.java:44) ~[classes/:?]
+	at com.dzb.controller.IndexControl.getVisitorNumByPageName(IndexControl.java:61) [classes/:?]
+	at com.dzb.controller.IndexControl$$FastClassBySpringCGLIB$$c105c88d.invoke(<generated>) [classes/:?]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) [spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.3.12.jar:5.3.12]
@@ -1318,7 +1318,7 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) [spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) [spring-aop-5.3.12.jar:5.3.12]
-	at com.zhy.controller.IndexControl$$EnhancerBySpringCGLIB$$e5ad7c36.getVisitorNumByPageName(<generated>) [classes/:?]
+	at com.dzb.controller.IndexControl$$EnhancerBySpringCGLIB$$e5ad7c36.getVisitorNumByPageName(<generated>) [classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -1443,7 +1443,7 @@ Caused by: java.nio.channels.ClosedChannelException
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.69.Final.jar:4.1.69.Final]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.69.Final.jar:4.1.69.Final]
 	... 1 more
-2022-01-21 14:40:14,618 [http-nio-80-exec-6] ERROR [com.zhy.controller.IndexControl] - pageName [visitorVolume] get visitor num exception
+2022-01-21 14:40:14,618 [http-nio-80-exec-6] ERROR [com.dzb.controller.IndexControl] - pageName [visitorVolume] get visitor num exception
 org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1671) ~[spring-data-redis-2.5.6.jar:2.5.6]
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1579) ~[spring-data-redis-2.5.6.jar:2.5.6]
@@ -1458,12 +1458,12 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:189) ~[spring-data-redis-2.5.6.jar:2.5.6]
 	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:96) ~[spring-data-redis-2.5.6.jar:2.5.6]
 	at org.springframework.data.redis.core.DefaultHashOperations.hasKey(DefaultHashOperations.java:67) ~[spring-data-redis-2.5.6.jar:2.5.6]
-	at com.zhy.redis.HashRedisServiceImpl.hasHashKey(HashRedisServiceImpl.java:113) ~[classes/:?]
-	at com.zhy.service.RedisService.getVisitorNumOnRedis(RedisService.java:119) ~[classes/:?]
-	at com.zhy.service.impl.VisitorServiceImpl.updatePageVisitor(VisitorServiceImpl.java:77) ~[classes/:?]
-	at com.zhy.service.impl.VisitorServiceImpl.addVisitorNumByPageName(VisitorServiceImpl.java:44) ~[classes/:?]
-	at com.zhy.controller.IndexControl.getVisitorNumByPageName(IndexControl.java:61) [classes/:?]
-	at com.zhy.controller.IndexControl$$FastClassBySpringCGLIB$$c105c88d.invoke(<generated>) [classes/:?]
+	at com.dzb.redis.HashRedisServiceImpl.hasHashKey(HashRedisServiceImpl.java:113) ~[classes/:?]
+	at com.dzb.service.RedisService.getVisitorNumOnRedis(RedisService.java:119) ~[classes/:?]
+	at com.dzb.service.impl.VisitorServiceImpl.updatePageVisitor(VisitorServiceImpl.java:77) ~[classes/:?]
+	at com.dzb.service.impl.VisitorServiceImpl.addVisitorNumByPageName(VisitorServiceImpl.java:44) ~[classes/:?]
+	at com.dzb.controller.IndexControl.getVisitorNumByPageName(IndexControl.java:61) [classes/:?]
+	at com.dzb.controller.IndexControl$$FastClassBySpringCGLIB$$c105c88d.invoke(<generated>) [classes/:?]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) [spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.3.12.jar:5.3.12]
@@ -1472,7 +1472,7 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) [spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) [spring-aop-5.3.12.jar:5.3.12]
-	at com.zhy.controller.IndexControl$$EnhancerBySpringCGLIB$$e5ad7c36.getVisitorNumByPageName(<generated>) [classes/:?]
+	at com.dzb.controller.IndexControl$$EnhancerBySpringCGLIB$$e5ad7c36.getVisitorNumByPageName(<generated>) [classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -1597,17 +1597,17 @@ Caused by: java.nio.channels.ClosedChannelException
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.69.Final.jar:4.1.69.Final]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.69.Final.jar:4.1.69.Final]
 	... 1 more
-2022-01-21 14:40:15,786 [http-nio-80-exec-3] INFO  [com.zhy.controller.UserControl] - ------这里是获取当前登录用户名的地方《《《@》》》
+2022-01-21 14:40:15,786 [http-nio-80-exec-3] INFO  [com.dzb.controller.UserControl] - ------这里是获取当前登录用户名的地方《《《@》》》
 2022-01-21 14:40:15,795 [http-nio-80-exec-3] ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 java.lang.NullPointerException: null
-	at com.zhy.controller.UserControl.getUserNews(UserControl.java:238) ~[classes/:?]
-	at com.zhy.controller.UserControl$$FastClassBySpringCGLIB$$113b0e70.invoke(<generated>) ~[classes/:?]
+	at com.dzb.controller.UserControl.getUserNews(UserControl.java:238) ~[classes/:?]
+	at com.dzb.controller.UserControl$$FastClassBySpringCGLIB$$113b0e70.invoke(<generated>) ~[classes/:?]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-5.3.12.jar:5.3.12]
-	at com.zhy.aspect.PrincipalAspect.principalAround(PrincipalAspect.java:57) ~[classes/:?]
+	at com.dzb.aspect.PrincipalAspect.principalAround(PrincipalAspect.java:57) ~[classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -1621,7 +1621,7 @@ java.lang.NullPointerException: null
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) ~[spring-aop-5.3.12.jar:5.3.12]
-	at com.zhy.controller.UserControl$$EnhancerBySpringCGLIB$$6e2a93bf.getUserNews(<generated>) ~[classes/:?]
+	at com.dzb.controller.UserControl$$EnhancerBySpringCGLIB$$6e2a93bf.getUserNews(<generated>) ~[classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -1705,7 +1705,7 @@ java.lang.NullPointerException: null
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.54.jar:9.0.54]
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.54.jar:9.0.54]
 	at java.lang.Thread.run(Thread.java:834) [?:?]
-2022-01-21 14:40:16,312 [http-nio-80-exec-9] ERROR [com.zhy.controller.IndexControl] - pageName [visitorVolume] get visitor num exception
+2022-01-21 14:40:16,312 [http-nio-80-exec-9] ERROR [com.dzb.controller.IndexControl] - pageName [visitorVolume] get visitor num exception
 org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1671) ~[spring-data-redis-2.5.6.jar:2.5.6]
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1579) ~[spring-data-redis-2.5.6.jar:2.5.6]
@@ -1720,12 +1720,12 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:189) ~[spring-data-redis-2.5.6.jar:2.5.6]
 	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:96) ~[spring-data-redis-2.5.6.jar:2.5.6]
 	at org.springframework.data.redis.core.DefaultHashOperations.hasKey(DefaultHashOperations.java:67) ~[spring-data-redis-2.5.6.jar:2.5.6]
-	at com.zhy.redis.HashRedisServiceImpl.hasHashKey(HashRedisServiceImpl.java:113) ~[classes/:?]
-	at com.zhy.service.RedisService.getVisitorNumOnRedis(RedisService.java:119) ~[classes/:?]
-	at com.zhy.service.impl.VisitorServiceImpl.updatePageVisitor(VisitorServiceImpl.java:77) ~[classes/:?]
-	at com.zhy.service.impl.VisitorServiceImpl.addVisitorNumByPageName(VisitorServiceImpl.java:44) ~[classes/:?]
-	at com.zhy.controller.IndexControl.getVisitorNumByPageName(IndexControl.java:61) [classes/:?]
-	at com.zhy.controller.IndexControl$$FastClassBySpringCGLIB$$c105c88d.invoke(<generated>) [classes/:?]
+	at com.dzb.redis.HashRedisServiceImpl.hasHashKey(HashRedisServiceImpl.java:113) ~[classes/:?]
+	at com.dzb.service.RedisService.getVisitorNumOnRedis(RedisService.java:119) ~[classes/:?]
+	at com.dzb.service.impl.VisitorServiceImpl.updatePageVisitor(VisitorServiceImpl.java:77) ~[classes/:?]
+	at com.dzb.service.impl.VisitorServiceImpl.addVisitorNumByPageName(VisitorServiceImpl.java:44) ~[classes/:?]
+	at com.dzb.controller.IndexControl.getVisitorNumByPageName(IndexControl.java:61) [classes/:?]
+	at com.dzb.controller.IndexControl$$FastClassBySpringCGLIB$$c105c88d.invoke(<generated>) [classes/:?]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) [spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.3.12.jar:5.3.12]
@@ -1734,7 +1734,7 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) [spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) [spring-aop-5.3.12.jar:5.3.12]
-	at com.zhy.controller.IndexControl$$EnhancerBySpringCGLIB$$e5ad7c36.getVisitorNumByPageName(<generated>) [classes/:?]
+	at com.dzb.controller.IndexControl$$EnhancerBySpringCGLIB$$e5ad7c36.getVisitorNumByPageName(<generated>) [classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -1859,17 +1859,17 @@ Caused by: java.nio.channels.ClosedChannelException
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.69.Final.jar:4.1.69.Final]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.69.Final.jar:4.1.69.Final]
 	... 1 more
-2022-01-21 14:40:22,399 [http-nio-80-exec-1] INFO  [com.zhy.controller.UserControl] - ------这里是获取当前登录用户名的地方《《《@》》》
+2022-01-21 14:40:22,399 [http-nio-80-exec-1] INFO  [com.dzb.controller.UserControl] - ------这里是获取当前登录用户名的地方《《《@》》》
 2022-01-21 14:40:22,400 [http-nio-80-exec-1] ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 java.lang.NullPointerException: null
-	at com.zhy.controller.UserControl.getUserNews(UserControl.java:238) ~[classes/:?]
-	at com.zhy.controller.UserControl$$FastClassBySpringCGLIB$$113b0e70.invoke(<generated>) ~[classes/:?]
+	at com.dzb.controller.UserControl.getUserNews(UserControl.java:238) ~[classes/:?]
+	at com.dzb.controller.UserControl$$FastClassBySpringCGLIB$$113b0e70.invoke(<generated>) ~[classes/:?]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-5.3.12.jar:5.3.12]
-	at com.zhy.aspect.PrincipalAspect.principalAround(PrincipalAspect.java:57) ~[classes/:?]
+	at com.dzb.aspect.PrincipalAspect.principalAround(PrincipalAspect.java:57) ~[classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -1883,7 +1883,7 @@ java.lang.NullPointerException: null
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) ~[spring-aop-5.3.12.jar:5.3.12]
-	at com.zhy.controller.UserControl$$EnhancerBySpringCGLIB$$6e2a93bf.getUserNews(<generated>) ~[classes/:?]
+	at com.dzb.controller.UserControl$$EnhancerBySpringCGLIB$$6e2a93bf.getUserNews(<generated>) ~[classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -1967,7 +1967,7 @@ java.lang.NullPointerException: null
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.54.jar:9.0.54]
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.54.jar:9.0.54]
 	at java.lang.Thread.run(Thread.java:834) [?:?]
-2022-01-21 14:40:23,012 [http-nio-80-exec-7] ERROR [com.zhy.controller.IndexControl] - pageName [visitorVolume] get visitor num exception
+2022-01-21 14:40:23,012 [http-nio-80-exec-7] ERROR [com.dzb.controller.IndexControl] - pageName [visitorVolume] get visitor num exception
 org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1671) ~[spring-data-redis-2.5.6.jar:2.5.6]
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1579) ~[spring-data-redis-2.5.6.jar:2.5.6]
@@ -1982,12 +1982,12 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:189) ~[spring-data-redis-2.5.6.jar:2.5.6]
 	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:96) ~[spring-data-redis-2.5.6.jar:2.5.6]
 	at org.springframework.data.redis.core.DefaultHashOperations.hasKey(DefaultHashOperations.java:67) ~[spring-data-redis-2.5.6.jar:2.5.6]
-	at com.zhy.redis.HashRedisServiceImpl.hasHashKey(HashRedisServiceImpl.java:113) ~[classes/:?]
-	at com.zhy.service.RedisService.getVisitorNumOnRedis(RedisService.java:119) ~[classes/:?]
-	at com.zhy.service.impl.VisitorServiceImpl.updatePageVisitor(VisitorServiceImpl.java:77) ~[classes/:?]
-	at com.zhy.service.impl.VisitorServiceImpl.addVisitorNumByPageName(VisitorServiceImpl.java:44) ~[classes/:?]
-	at com.zhy.controller.IndexControl.getVisitorNumByPageName(IndexControl.java:61) [classes/:?]
-	at com.zhy.controller.IndexControl$$FastClassBySpringCGLIB$$c105c88d.invoke(<generated>) [classes/:?]
+	at com.dzb.redis.HashRedisServiceImpl.hasHashKey(HashRedisServiceImpl.java:113) ~[classes/:?]
+	at com.dzb.service.RedisService.getVisitorNumOnRedis(RedisService.java:119) ~[classes/:?]
+	at com.dzb.service.impl.VisitorServiceImpl.updatePageVisitor(VisitorServiceImpl.java:77) ~[classes/:?]
+	at com.dzb.service.impl.VisitorServiceImpl.addVisitorNumByPageName(VisitorServiceImpl.java:44) ~[classes/:?]
+	at com.dzb.controller.IndexControl.getVisitorNumByPageName(IndexControl.java:61) [classes/:?]
+	at com.dzb.controller.IndexControl$$FastClassBySpringCGLIB$$c105c88d.invoke(<generated>) [classes/:?]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) [spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.3.12.jar:5.3.12]
@@ -1996,7 +1996,7 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) [spring-aop-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) [spring-aop-5.3.12.jar:5.3.12]
-	at com.zhy.controller.IndexControl$$EnhancerBySpringCGLIB$$e5ad7c36.getVisitorNumByPageName(<generated>) [classes/:?]
+	at com.dzb.controller.IndexControl$$EnhancerBySpringCGLIB$$e5ad7c36.getVisitorNumByPageName(<generated>) [classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -2121,8 +2121,8 @@ Caused by: java.nio.channels.ClosedChannelException
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.69.Final.jar:4.1.69.Final]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.69.Final.jar:4.1.69.Final]
 	... 1 more
-2022-01-21 14:42:56,730 [main] INFO  [com.zhy.MyBlogApplication] - Starting MyBlogApplication using Java 11.0.10 on DESKTOP-QMO4NER with PID 15436 (D:\JavaWork\Github-Repositry\MyBlog-master\target\classes started by 12978 in D:\JavaWork\Github-Repositry\MyBlog-master)
-2022-01-21 14:42:56,737 [main] INFO  [com.zhy.MyBlogApplication] - The following profiles are active: dev
+2022-01-21 14:42:56,730 [main] INFO  [com.dzb.MyBlogApplication] - Starting MyBlogApplication using Java 11.0.10 on DESKTOP-QMO4NER with PID 15436 (D:\JavaWork\Github-Repositry\MyBlog-master\target\classes started by 12978 in D:\JavaWork\Github-Repositry\MyBlog-master)
+2022-01-21 14:42:56,737 [main] INFO  [com.dzb.MyBlogApplication] - The following profiles are active: dev
 2022-01-21 14:42:57,350 [main] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
 2022-01-21 14:42:57,352 [main] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
 2022-01-21 14:42:57,380 [main] INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
@@ -2138,17 +2138,17 @@ Caused by: java.nio.channels.ClosedChannelException
 2022-01-21 14:42:58,018 [main] INFO  [org.apache.catalina.core.AprLifecycleListener] - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
 2022-01-21 14:42:58,098 [main] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
 2022-01-21 14:42:58,099 [main] INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1317 ms
-2022-01-21 14:42:58,111 [main] INFO  [com.zhy.config.DruidDataSourceConfig] - init Druid Servlet Configuration 
+2022-01-21 14:42:58,111 [main] INFO  [com.dzb.config.DruidDataSourceConfig] - init Druid Servlet Configuration
 2022-01-21 14:42:59,546 [main] INFO  [org.springframework.security.web.DefaultSecurityFilterChain] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@572b4072, org.springframework.security.web.context.SecurityContextPersistenceFilter@6fefc5ea, org.springframework.security.web.header.HeaderWriterFilter@3580134d, org.springframework.security.web.authentication.logout.LogoutFilter@441aa7ae, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6d7bb5cc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4888d1ea, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f19d423, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@322ab6ce, org.springframework.security.web.session.SessionManagementFilter@7b7e4b20, org.springframework.security.web.access.ExceptionTranslationFilter@5d8fd077, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@114badf0]
 2022-01-21 14:42:59,669 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-80"]
 2022-01-21 14:42:59,690 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 80 (http) with context path ''
-2022-01-21 14:42:59,705 [main] INFO  [com.zhy.MyBlogApplication] - Started MyBlogApplication in 3.292 seconds (JVM running for 5.117)
+2022-01-21 14:42:59,705 [main] INFO  [com.dzb.MyBlogApplication] - Started MyBlogApplication in 3.292 seconds (JVM running for 5.117)
 2022-01-21 14:43:03,898 [http-nio-80-exec-1] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2022-01-21 14:43:03,899 [http-nio-80-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
 2022-01-21 14:43:03,900 [http-nio-80-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
 2022-01-21 14:43:04,456 [http-nio-80-exec-1] WARN  [org.apache.catalina.util.SessionIdGeneratorBase] - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [518] milliseconds.
 2022-01-21 14:43:05,066 [http-nio-80-exec-6] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
-2022-01-21 14:43:06,879 [http-nio-80-exec-8] ERROR [com.zhy.controller.IndexControl] - pageName [visitorVolume] get visitor num exception
+2022-01-21 14:43:06,879 [http-nio-80-exec-8] ERROR [com.dzb.controller.IndexControl] - pageName [visitorVolume] get visitor num exception
 org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1671) ~[spring-data-redis-2.5.6.jar:2.5.6]
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1579) ~[spring-data-redis-2.5.6.jar:2.5.6]
@@ -2163,11 +2163,11 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:189) ~[spring-data-redis-2.5.6.jar:2.5.6]
 	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:96) ~[spring-data-redis-2.5.6.jar:2.5.6]
 	at org.springframework.data.redis.core.DefaultHashOperations.hasKey(DefaultHashOperations.java:67) ~[spring-data-redis-2.5.6.jar:2.5.6]
-	at com.zhy.redis.HashRedisServiceImpl.hasHashKey(HashRedisServiceImpl.java:113) ~[classes/:?]
-	at com.zhy.service.RedisService.addVisitorNumOnRedis(RedisService.java:100) ~[classes/:?]
-	at com.zhy.service.impl.VisitorServiceImpl.updatePageVisitor(VisitorServiceImpl.java:64) ~[classes/:?]
-	at com.zhy.service.impl.VisitorServiceImpl.addVisitorNumByPageName(VisitorServiceImpl.java:44) ~[classes/:?]
-	at com.zhy.controller.IndexControl.getVisitorNumByPageName(IndexControl.java:61) [classes/:?]
+	at com.dzb.redis.HashRedisServiceImpl.hasHashKey(HashRedisServiceImpl.java:113) ~[classes/:?]
+	at com.dzb.service.RedisService.addVisitorNumOnRedis(RedisService.java:100) ~[classes/:?]
+	at com.dzb.service.impl.VisitorServiceImpl.updatePageVisitor(VisitorServiceImpl.java:64) ~[classes/:?]
+	at com.dzb.service.impl.VisitorServiceImpl.addVisitorNumByPageName(VisitorServiceImpl.java:44) ~[classes/:?]
+	at com.dzb.controller.IndexControl.getVisitorNumByPageName(IndexControl.java:61) [classes/:?]
 	at com.zhy.controller.IndexControl$$FastClassBySpringCGLIB$$c105c88d.invoke(<generated>) [classes/:?]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.3.12.jar:5.3.12]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) [spring-aop-5.3.12.jar:5.3.12]

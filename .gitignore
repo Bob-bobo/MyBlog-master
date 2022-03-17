@@ -1,6 +1,10 @@
 /target/
 !.mvn/wrapper/maven-wrapper.jar
 
+
+*.lnk
+target/
+.idea/
 ### STS ###
 .apt_generated
 .classpath
